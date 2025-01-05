@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            border: 1px solid rgb(192, 184, 184);
+            text-align: center;
+            width: 312px;
+            height: 377px;
+            margin-top: 10px;
+            border-radius: 1px;
+        }
+
+        .insta {
+            width: 180px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        textarea {
+            font-size: 11px;
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            width: 240px;
+            border-color: rgb(192, 184, 184);
+            border-radius: 1px;
+            background-color: rgba(239, 239, 239, 0.642);
+            resize: none;
+        }
+
+        ::placeholder {
+            padding: 7px 5px 5px 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            width: 245px;
+            height: 30px;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(0, 149, 246);
+            font-weight: 600;
+            color: white;
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+
+        .divider {
+            margin-top: 15px;
+        }
+
+        .line {
+            display: inline-block;
+            margin-bottom: 5px;
+            width: 95px;
+            border-bottom: 0.5px solid #9E9E9E;
+        }
+
+        .or-text {
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            color: #878686;
+            margin: 0 10px;
+        }
+
+        .facebook {
+            width: 15px;
+            margin-right: 5px;
+            margin-top: 30px;
+        }
+
+        .fb {
+            color: none;
+            text-decoration: none;
+            color: #3B5998;
+        }
+
+        .fb-text {
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .forgot {
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 10px;
+            text-decoration: none;
+            color: #3B5998;
+        }
+
+        .box2 {
+            border: 1px solid rgb(192, 184, 184);
+            text-align: center;
+            width: 312px;
+            height: 50px;
+            border-radius: 1px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .sign {
+            margin-top: 17px;
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .signin {
+            text-decoration: none;
+            color: rgb(0, 149, 246);
+            font-weight: 550;
+        }
+
+        .getapp {
+            font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .googleplay {
+            margin-top: 15px;
+            height: 35px;
+        }
+
+        .microsoft {
+            height: 35px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="box">
+            <img src="Instagram.png" alt="Instagram" class="insta">
+            <textarea name="id" id="username" placeholder="Phone number, username, or email"></textarea>
+            <textarea name="pw" id="password" placeholder="Password"></textarea>
+            <button type="submit">Log in</button><br>
+            <div class="divider">
+                <span class="line"></span>
+                <span class="or-text"><b>OR</b></span>
+                <span class="line"></span>
+            </div>
+            <div class="in-box">
+                <img src="fb.png" alt="facebook" class="facebook">
+                <span class="fb-text"><a href="" class="fb"><b>Log in with Facebook</b></a><br><br></span>
+                <span class="forgot-pw"><a href="" class="forgot">Forgot password?</a></span>
+            </div>
+            <div class="box2">
+                <div class="sign">Don't have an account?<a href="" class="signin"> Sign up</a></div>
+            </div>
+            <span class="getapp">Get the app.</span><br>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D138F3D4D-DF9B-4D12-84B7-90A59E5C6CEB%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.google.com%2F"
+                target="_blank" class="googleplay"><img src="GooglePlay.png" alt="Google Play" class="googleplay"></a>
+            <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C0%2C0&hl=en"
+                class="microsoft"><img src="Microsoft.png" alt="Microsoft" class="microsoft"></a>
+        </div>
+    </div>
+</body>
+
+</html>
